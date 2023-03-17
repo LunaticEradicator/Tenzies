@@ -1,3 +1,85 @@
+body {
+  margin: 0;
+  background-color: #121e25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   text-align: center;
+  font-size: 3rem;
+  margin: 0px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  max-width: 60%;
+}
+
+main {
+  padding: 20px;
+}
+
+#root {
+  background-color: #F5F5F5;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.dieHeading {
+  display: grid;
+  place-items: center;
+}
+
+.dieContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 50px;
+  justify-items: center;
+  padding: 15px;
+}
+
+.dieEach {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.sike {
+  display: flex;
+  flex-direction: column;
+}
+
+.rollDiceDiv {
+  display: grid;
+  place-items: center;
+  /* padding: 15px; */
+}
+
+.rollDice {
+  all: unset;
+  font-family: Karla;
+  font-size: 3rem;
+  text-align: center;
+  background: #5035FF;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px;
+
 }
